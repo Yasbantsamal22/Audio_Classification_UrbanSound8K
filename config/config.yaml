@@ -1,0 +1,28 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  preprocess_dir: artifacts/data_ingestion/preprocess
+  split_dir: artifacts/data_ingestion/splits
+
+
+
+# prepare_base_model:
+#   root_dir: artifacts/prepare_base_model
+#   base_model_path: artifacts/prepare_base_model/audio_classification.h5
+
+
+
+
+# prepare_callbacks:
+#   root_dir: artifacts/prepare_callbacks
+#   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
+#   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5
+
+
+
+
+# training:
+#   root_dir: artifacts/training
+#   trained_model_path: artifacts/training/model.h5

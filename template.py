@@ -24,8 +24,6 @@ list_of_files = [
     "research/trials.ipynb",
     "templates/index.html",
     "data/raw/",
-    "data/processed/",
-    "data/splits/",
 ]
 
 for filepath in list_of_files:
