@@ -8,6 +8,8 @@ data_ingestion:
   preprocess_data_dir: artifacts/data_ingestion/preprocess/mfccs.csv
   audio_dataset_path: 'data\\raw'
   split_dir: artifacts/data_ingestion/splits
+  train_data_dir: artifacts/data_ingestion/splits/train.csv
+  test_data_dir: artifacts/data_ingestion/splits/test.csv
 
 
 
