@@ -3,7 +3,10 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
+  csv_path: data/UrbanSound8K.csv
   preprocess_dir: artifacts/data_ingestion/preprocess
+  preprocess_data_dir: artifacts/data_ingestion/preprocess/mfccs.csv
+  audio_dataset_path: 'data\\raw'
   split_dir: artifacts/data_ingestion/splits
 
 
