@@ -13,21 +13,17 @@ data_ingestion:
 
 
 
-# prepare_base_model:
-#   root_dir: artifacts/prepare_base_model
-#   base_model_path: artifacts/prepare_base_model/audio_classification.h5
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/audio_classification.h5
 
 
 
 
-# prepare_callbacks:
-#   root_dir: artifacts/prepare_callbacks
-#   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
-#   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5
-
-
-
-
-# training:
-#   root_dir: artifacts/training
-#   trained_model_path: artifacts/training/model.h5
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/audio_classification_model.h5
+  train_data_dir: artifacts/data_ingestion/splits/train.csv
+  test_data_dir: artifacts/data_ingestion/splits/test.csv
+  checkpoint_model_filepath: artifacts/training/checkpoint_dir/model.h5
+  base_model_path: artifacts/prepare_base_model/audio_classification.h5
