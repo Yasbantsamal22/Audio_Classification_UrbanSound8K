@@ -69,7 +69,7 @@ This project is an **Audio Classification System** that can automatically recogn
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/audio-classification.git
+   git clone (https://github.com/Yasbantsamal22/Audio_Classification_UrbanSound8K.git)
    cd audio-classification
    ```
 
